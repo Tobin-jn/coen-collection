@@ -13,11 +13,15 @@ coenCollection is an app that serves as a catalogue for the films of the Coen Br
 * Redux
 * React Router
 
-### Desktop Screenshots:
+### Landing Page:
 
 <img src="https://github.com/christopherchateau/movie-tracker/blob/master/src/images/coenCollection-Desktop-1.png" width="800px" />
 
+### Logged In:
+
 <img src="https://github.com/christopherchateau/movie-tracker/blob/master/src/images/coenCollection-Desktop-2.png" width="800px" />
+
+### Favorites:
 
 <img src="https://github.com/christopherchateau/movie-tracker/blob/master/src/images/coenCollection-Desktop-3.png" width="800px" />
 
