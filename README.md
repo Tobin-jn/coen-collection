@@ -1,18 +1,20 @@
 # coenCollection
 
+### About
+
 coenCollection is an app that serves as a catalogue for the films of the Coen Brothers. Users can navigate the app to see all the films of the famed directors. Hover over the poster image to find an overview of the film along with the release date. Upon login, users can favorite the films and also view just their favorited films. New users are asked to sign up before logging in.
 
-
-### API's used
-
-* The Movie DB API 
-
-### Primary JavaScript Technologies Used
+### Tech Stack
 
 * React
 * Redux
 * React Router
 
+### API's used
+
+* The Movie DB API 
+
+## Screenshots
 ### Landing Page:
 
 <img src="https://github.com/christopherchateau/movie-tracker/blob/master/src/images/coenCollection-Desktop-1.png" width="800px" />
@@ -35,9 +37,7 @@ coenCollection is an app that serves as a catalogue for the films of the Coen Br
 
 <img src="https://github.com/christopherchateau/movie-tracker/blob/master/src/images/movie-time-wireframe.png" width="600" />
 
-#### Additional Assets:
-
-### Setup
+## Setup
 #### Frontend
 
 Clone this repo
@@ -54,8 +54,7 @@ Run ```npm install``` from the root directory
 
 Run ```npm start``` and visit localhost:3000/api/users in your browser
 
-Note postgresSQl is needed to run the backend. Head to [Postres.app](Postres.app) to download
-
+PostgresSQl is needed to run the backend. Head to [Postres.app](Postres.app)to download
 
 ### Test Driven Development
 
@@ -65,7 +64,7 @@ Run with ```npm test``` from the root directory
 
 ### Original Assignment
 
-[Movie Tracker](https://github.com/turingschool-examples/movie-tracker) from the Turing School of Software & Design
+[Movie Tracker](https://github.com/turingschool-examples/movie-tracker) from the [Turing School of Software & Design](http://turing.io)
 
 ### Contributors
 
