@@ -31,6 +31,8 @@ coenCollection is an app that serves as a catalogue for the films of the Coen Br
 
 <img src="https://github.com/christopherchateau/movie-tracker/blob/master/src/images/coenCollection-Mobile.png" width="300" />
 
+### Additional Assets
+
 <img src="https://github.com/christopherchateau/movie-tracker/blob/master/src/images/coenCollection-Tablet.png" width="400" />
 
 ### Original Wireframe:
@@ -69,7 +71,5 @@ Run with ```npm test``` from the root directory
 ### Contributors
 
 * Tobin Nelson: [Github Profile](https://github.com/Tobin-jn)
-
 * Chris Chateau: [Github Profile](https://github.com/christopherchateau)
-
 * Haley Jacobs: [Github Profile](https://github.com/hljacobs5)
