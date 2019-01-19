@@ -54,7 +54,9 @@ export const fetchAddFavorite = async movie => {
       headers: { "Content-Type": "application/json" }
     }
   );
+  console.log(response)
   const data = await response.json();
+  console.log(data)
   return data;
 };
 
@@ -63,7 +65,7 @@ export const retrieveUserFavorites = async userId => {
     `https://coen-collection-backend.herokuapp.com/api/users/${userId}/favorites`
   );
   const favorites = await response.json();
-  return favorites.data;
+  return favorites;
 };
 
 export const removeFavorite = async (userId, movieId) => {
