@@ -8,7 +8,6 @@
 
 
 # misc
-src/apiKey.js
 .DS_Store
 .env.local
 .env.development.local
