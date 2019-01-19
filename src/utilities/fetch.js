@@ -10,7 +10,7 @@ export const fetchData = async () => {
 };
 
 export const fetchLoginUser = async (email, password) => {
-  const response = await fetch("http://localhost:3000/api/users", {
+  const response = await fetch("https://coen-collection-backend.herokuapp.com/api/users", {
     method: "POST",
     credentials: "same-origin",
     body: JSON.stringify({
@@ -24,7 +24,7 @@ export const fetchLoginUser = async (email, password) => {
 };
 
 export const fetchSignupUser = async (username, email, password) => {
-  const response = await fetch("http://localhost:3000/api/users/new", {
+  const response = await fetch("https://coen-collection-backend.herokuapp.com/api/users/new", {
     method: "POST",
     body: JSON.stringify({
       name: username,
@@ -39,16 +39,17 @@ export const fetchSignupUser = async (username, email, password) => {
 
 export const fetchAddFavorite = async movie => {
   const response = await fetch(
-    "http://localhost:3000/api/users/favorites/new",
+    "https://coen-collection-backend.herokuapp.com/api/users/favorites/new",
     {
       method: "POST",
+      mode: "cors",
       body: JSON.stringify({
         movie_id: movie.id,
         user_id: movie.currentUser.id,
         title: movie.title,
         poster_path: movie.poster,
         release_date: movie.date,
-        vote_average: movie.voteAverage,
+        vote_average: parseInt(movie.voteAverage),
         overview: movie.overview
       }),
       headers: { "Content-Type": "application/json" }
@@ -60,15 +61,15 @@ export const fetchAddFavorite = async movie => {
 
 export const retrieveUserFavorites = async userId => {
   const response = await fetch(
-    `http://localhost:3000/api/users/${userId}/favorites`
+    `https://coen-collection-backend.herokuapp.com/api/users/${userId}/favorites`
   );
   const favorites = await response.json();
-  return favorites.data;
+  return favorites;
 };
 
 export const removeFavorite = async (userId, movieId) => {
   return fetch(
-    `http://localhost:3000/api/users/${userId}/favorites/${movieId}`,
+    `https://coen-collection-backend.herokuapp.com/api/users/${userId}/favorites/${movieId}`,
     {
       method: "DELETE",
       body: JSON.stringify({

@@ -86,9 +86,9 @@ export class LoginControls extends Component {
 
   updateUserDataAfterLogin = userData => {
     const { email, password } = this.state;
-    this.props.saveUserData(userData.data.name, userData.data.id);
+    this.props.saveUserData(userData[0].name, userData[0].id);
     this.props.handleLogin(true);
-    this.getUserFavorites(userData.data.id);
+    this.getUserFavorites(userData[0].id);
     localStorage.setItem(
       "coenCollection",
       JSON.stringify({ loggedIn: true, email, password })
@@ -160,6 +160,7 @@ export class LoginControls extends Component {
             )}
             <input
               name="password"
+              type="password"
               placeholder="password"
               className={
                 pathname === "/signup" ? "signup password" : "login password"
