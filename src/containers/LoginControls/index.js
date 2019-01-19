@@ -160,6 +160,7 @@ export class LoginControls extends Component {
             )}
             <input
               name="password"
+              type="password"
               placeholder="password"
               className={
                 pathname === "/signup" ? "signup password" : "login password"
