@@ -42,21 +42,20 @@ export const fetchAddFavorite = async movie => {
     "https://coen-collection-backend.herokuapp.com/api/users/favorites/new",
     {
       method: "POST",
+      mode: "cors",
       body: JSON.stringify({
         movie_id: movie.id,
         user_id: movie.currentUser.id,
         title: movie.title,
         poster_path: movie.poster,
         release_date: movie.date,
-        vote_average: movie.voteAverage,
+        vote_average: parseInt(movie.voteAverage),
         overview: movie.overview
       }),
       headers: { "Content-Type": "application/json" }
     }
   );
-  console.log(response)
   const data = await response.json();
-  console.log(data)
   return data;
 };
 
