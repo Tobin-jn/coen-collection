@@ -1,7 +1,7 @@
 {
   "name": "front-end",
   "version": "0.1.0",
-  "homepage": "https://tobin-jn.github.io/coenCollection/",
+  "homepage": "https://coen-collection.herokuapp.com",
   "private": true,
   "dependencies": {
     "prop-types": "^15.6.2",
@@ -17,8 +17,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "eslint": "./node_modules/eslint/bin/eslint.js ./src/**/**/*.js"
   },
