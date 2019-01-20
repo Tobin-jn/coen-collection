@@ -79,6 +79,6 @@ Run with ```npm test``` from the root directory
 
 ### Contributors
 
-* Tobin Nelson: [Github Profile](https://github.com/Tobin-jn)
 * Chris Chateau: [Github Profile](https://github.com/christopherchateau)
 * Haley Jacobs: [Github Profile](https://github.com/hljacobs5)
+* Tobin Nelson: [Github Profile](https://github.com/Tobin-jn)
