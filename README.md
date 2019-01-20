@@ -15,6 +15,7 @@ User API: [coen-collection-backend.herokuapp.com](https://coen-collection-backen
 * React
 * Redux
 * React Router
+* Jest / Enzyme
 * Express.js
 * Knex.js
 * PostgreSQL
