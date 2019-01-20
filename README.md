@@ -4,11 +4,19 @@
 
 coenCollection is an app that serves as a catalogue for the films of the Coen Brothers. Users can navigate the app to see all the films of the famed directors. Hover over the poster image to find an overview of the film along with the release date. Upon login, users can favorite the films and also view just their favorited films. New users are asked to sign up before logging in.
 
+### See it Live
+
+App: [coen-collection.herokuapp.com](https://coen-collection.herokuapp.com/)
+User API: [coen-collection-backend.herokuapp.com](https://coen-collection-backend.herokuapp.com/)
+
 ### Tech Stack
 
 * React
 * Redux
 * React Router
+* Express.js
+* Knex.js
+* PostgreSQL
 
 ### API's used
 
@@ -50,7 +58,7 @@ Run ```npm start``` and visit localhost:3000 in your browser
 
 #### Backend
 
-Clone the [repo](https://github.com/turingschool-examples/movie-tracker)
+Clone the [repo](https://github.com/Tobin-jn/coen-collection-be)
 
 Run ```npm install``` from the root directory
 
