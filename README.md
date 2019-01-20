@@ -6,7 +6,7 @@ coenCollection is an app that serves as a catalogue for the films of the Coen Br
 
 ### See it Live
 
-See the App at: [coen-collection.herokuapp.com](https://coen-collection.herokuapp.com/)
+Coen Collection on Heroku: [coen-collection.herokuapp.com](https://coen-collection.herokuapp.com/)
 
 User API: [coen-collection-backend.herokuapp.com](https://coen-collection-backend.herokuapp.com/)
 
@@ -18,6 +18,7 @@ User API: [coen-collection-backend.herokuapp.com](https://coen-collection-backen
 * Express.js
 * Knex.js
 * PostgreSQL
+* Heroku
 
 ### API's used
 
