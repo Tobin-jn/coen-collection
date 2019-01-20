@@ -1,8 +1,8 @@
-import apiKey from "../apiKey";
+// import apiKey from "../apiKey";
 
 export const fetchData = async () => {
   const url = `https://api.themoviedb.org/3/person/1223/movie_credits?api_key=${
-    apiKey.theMoveDBApiKey
+    process.env.REACT_APP_API_KEY
   }`;
   const response = await fetch(url);
   const movieData = await response.json();
